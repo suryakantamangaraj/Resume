@@ -1,0 +1,29 @@
+name: make
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: make resume
+      run: make clean && make resume
+    - name: Commit and push if it changed
+      run: |-
+        git config --global user.name "resume-maker"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -Is)
+        git commit -m "Resume built at ${timestamp}" || exit 0
+        git push
