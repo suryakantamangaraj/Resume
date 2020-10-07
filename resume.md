@@ -50,13 +50,6 @@ Global movement of free coding clubs for young people.
  - Testing and Measurement Tools: Oscilloscope, Logic Analyzer, Function Generator, Power Supply, Spectrum Analyser, Multi-meter, LCR meter etc.
  - Other Tools: MATLAB, NI Labview, Keysight BenchVue
 
-## Education
-
-### <span>National Institute of Science and Technology, B.Tech. Electronics and Communication </span> <span>2014 -- 2018</span>
-
-  - GPA 8.09
-  ```VLSI on Cadence```
-
 ## Projects
 
 ### <span>SoC data acquisition system board for smart water quality monitoring</span> <span>Jan 2019 -- Jul 2019</span>
@@ -68,6 +61,12 @@ Design of a DAQ system board with testability
    - Define testing points of the board
    - Calculate and define the input and output signal and power budget as per customer specs
    - Responsible for different part used in design and prepared BOM of the design
+
+## Education
+
+### <span>National Institute of Science and Technology, B.Tech. Electronics and Communication </span> <span>2014 -- 2018</span>
+
+  - GPA 8.09
 
 ## Awards and Achievements
 
