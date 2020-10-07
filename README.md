@@ -4,7 +4,7 @@
 
 
 Write your resume in
-[Markdown](https://raw.githubusercontent.com/williamsmj/resume.md/main/resume.md),
+[Markdown](https://github.com/suryakantamangaraj/Resume/edit/main/resume.md),
 style it with [CSS](resume.css), output to [HTML](resume.html) and
 [PDF](resume.pdf).
 
