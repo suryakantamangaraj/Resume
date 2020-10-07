@@ -16,20 +16,20 @@ body {
 }
 h1 {
     text-transform: uppercase;
-    text-align: left;
-    font-size: 150%;
+    text-align: center;
+    font-size: 160%;
     margin: 0;
     padding: 0;
 }
 h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
-    font-size: 100%;
+    font-size: 130%;
     margin: 1em 0 0 0;
     padding: 0;
 }
 h3 {
-    font-size: 80%;
+    font-size: 100%;
     margin: 0.8em 0 0.3em 0;
     padding: 0;
     display: flex;
@@ -108,3 +108,4 @@ h1 + ul + p {
         -webkit-box-shadow: none;
     }
 }
+
