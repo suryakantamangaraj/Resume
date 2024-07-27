@@ -1,6 +1,6 @@
 # resume.md
 
-![Resume](resume.png)
+![Resume](resume.jpg)
 
 
 Write your resume in
