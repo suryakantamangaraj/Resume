@@ -4,6 +4,9 @@ body {
     font: 1.1em "Times New Roman";
     line-height: 1.2;
     margin: 40px 0;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 #resume {
     margin: 0 auto;
