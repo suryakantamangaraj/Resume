@@ -1,7 +1,5 @@
 # resume.md
 
-![Resume](resume.jpg)
-
 Write your resume in [Markdown](https://github.com/suryakantamangaraj/Resume/edit/main/resume.md), style it with [CSS](resume.css), output to [HTML](resume.html) and [PDF](resume.pdf).
 
 ## Instructions
