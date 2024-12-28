@@ -1,21 +1,10 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 # Suryakanta Mangaraj
-
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 
 - [suryaraj.me](http://suryaraj.me)
 - <surya.socialnetworking@gmail.com>
 - Bhubaneswar, India
 
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
 To excel in a challenging role within the RFCT field, utilizing my skills, education, and work experience to the fullest extent.
-
-## Experience
-
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 
 ## Experience
 
@@ -72,59 +61,4 @@ hand -->
 - Design Tools: Keysight ADS, Cadence AWR, MATLAB, NI LabVIEW, Allegro, Virtuoso, OrCAD, Mentor Graphics Xpedition (DxD - HyperLynx), Altium Designer, LTSpice
 - Scripting: Python, Linux/Unix shell scripting, Tcl/Tk scripting
 - Programming Languages: C, C++, C#
-- Testing and Measurement Tools: Oscilloscope, Logic Analyzer, Signal Generator, Power Supply, Spectrum Analyzer, Network Analyzer, Multi-meter, LCR meter etc.
-- Test Automation Tools: NI TestStand, Keysight PathWave
-- Other Tools: MS Office, Git, JIRA, DOORS, CI/CD, JAMA, Agile, Collaborator
-
-## Projects
-
-### <span>VHF Data Link Radios for commercial aircraft</span>
-
-- Design and development of VHF Data Link radios for communication in commercial aircraft.
-
-### <span>Radar Altimeter for commercial and business aircraft</span>
-
-- Development of a radar altimeter for precise altitude measurement in commercial and business aircraft.
-
-### <span>AI-Assisted battery management system for next gen UAV/UAM</span>
-
-- Design and implementation of an AI-assisted battery management system for next-generation UAVs and UAMs.
-
-### <span>Indoor small cell radio unit base station</span>
-
-- Development of an indoor small cell radio unit base station for enhanced indoor coverage.
-
-### <span>Outdoor macro cell radio unit base station</span>
-
-- Design and development of an outdoor macro cell radio unit base station for wide area coverage.
-
-### <span>B-tech project on “Design of Low Power and High PSRR LDO Regulator using Cadence Tool”</span>
-
-- Design of a low power, high PSRR LDO regulator using Cadence tools.
-
-### <span>Seminar on “Automated Space Rover using FPGA”</span>
-
-- Presentation on the development and automation of a space rover using FPGA technology.
-
-## Education
-
-### <span>Indian Institute of Technology, Kanpur</span> <span>Master of Technology (Executive)</span> <span>2023</span>
-
-### <span>National Institute of Science and Technology, Berhampur</span> <span>Bachelor of Technology</span> <span>2018</span>
-
-### <span>KBDAV College, Odisha</span> <span>Intermediate</span> <span>2014</span>
-
-### <span>Ramchandra Vidyaniketan, Odisha</span> <span>Matriculation</span> <span>2012</span>
-
-## Awards and Achievements
-
-- Secured two proprietary advancements in RF and Next-Gen UAV technology, contributing to strategic innovation during my tenure at Honeywell.
-- Secured victory in the inaugural edition of Aero Zommers 2022, Honeywell's Internal Incubation program, with a selected and winning idea, showcasing excellence among young employees.
-- Finalists of the Cadence Design Contest 2018 under UG category for B-tech Project “Design of Low Power High PSRR LDO Regulator with Smart Power Save Operation using 180nm Technology”.
-- Published a paper titled “Design of two stage classical model Op-Amp for LDO applications” in “8th IEEE MINI-COLLOQUIUM” by IEEE ED-NIST Student Chapter.
-- Certified as the VLSI Design Engineer Framework Level-5 by ESSCI (NSDC), India.
-- Qualified to qualifying round of INDIA INNOVATION CHALLENGE WEBENCH design contest 2016 organized by Texas Instruments Inc.
-
-## References
-
-Available on request
+- Testing and Measurement Tools: Oscilloscope, Logic Analyzer, Signal Generator, Power Supply
