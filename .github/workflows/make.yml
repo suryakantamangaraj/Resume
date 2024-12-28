@@ -1,29 +1,43 @@
-name: make
+name: Build and Deploy Resume
 
 on:
   push:
-  workflow_dispatch:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  make:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Check out repo
+    - name: Checkout repository
       uses: actions/checkout@v2
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8
-    - name: Install Python dependencies
+        python-version: '3.x'
+
+    - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-    - name: make resume
-      run: make clean && make resume
-    - name: Commit and push if it changed
-      run: |-
+        python -m pip install --upgrade pip
+        pip install markdown weasyprint
+
+    - name: Build resume
+      run: make resume
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
         git config --global user.name "resume-maker"
-        git config user.email "actions@users.noreply.github.com"
+        git config --global user.email "actions@users.noreply.github.com"
         git add -A
-        timestamp=$(date -Is)
-        git commit -m "Resume built at ${timestamp}" || exit 0
-        git push
+        if ! git diff-index --quiet HEAD; then
+          timestamp=$(date -Is)
+          git commit -m "Resume built at ${timestamp}"
+          git push
+        fi
